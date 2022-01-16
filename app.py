@@ -8,6 +8,7 @@ app = Flask(__name__)
 def index():
     hello = "hello"
     hello += "!"
+    hello -= "!"
     return render_template('index.html', title="Teaching Andrew", name="by Alan")
 
 
